@@ -4,7 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Ciknis Pipau &hearts;</h1>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Ciknis Pipau &hearts;
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
